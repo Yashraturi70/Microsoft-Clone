@@ -6,6 +6,275 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href="https://db.onlinewebfonts.com/c/ba047a29b78bffd9a985b2e86b289fe8?family=MWF+MDL2+Assets" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<style>
+		*{
+	margin:0px;
+	padding:0px;
+	font-family:Segoe UI, SegoeUI, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+body{
+	overflow-y:scroll;
+}
+
+header{
+	height:54px;
+	padding:0px 5%;
+	width:90%;
+	font-size:13px;
+	color:black;
+}
+.left{
+	float:left;
+	width:70%;
+	height:100%;
+	display:flex;
+	align-items:center;
+	margin-left:68px;
+}
+.right{
+	float:right;
+	width:25%;
+	height:100%;
+}
+
+.leftitem img{
+	width:108px;
+	height:23px;
+	cursor:pointer;
+}
+ul li{
+	list-style:none;
+	float:left;
+	border:1px solid transparent;
+	padding:16px 8px 10px;
+	margin:1px 4px 0px;
+	cursor:pointer;
+}
+ul li:hover{
+	text-decoration:underline;
+}
+.leftin{
+	margin-left:20px;
+	height:100%
+}
+.linkimg{
+	width:32px;
+	position: relative;
+    top: 9px;
+}
+
+
+.mcentre{
+	margin-top:2px;
+	width:100%;
+	height:595px;
+	background-image:url("mcentre.avif");
+	cursor:pointer;
+	vertical-align:middle;
+	background-size:contain;
+	background-repeat:no-repeat;
+	padding-bottom:4rem;
+}
+.pop1{
+	width:550px;
+	height:170px;
+	background-color:transparent;
+	position:relative;
+	top:93px;
+	left:201px;
+	
+}
+.line1{
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	position:relative;
+	top:-50px;
+	margin-bottom:2px;
+}
+.play{
+	width:44px;
+	height:44px;
+	display:flex;
+	align-items:center;
+	justify-content:center
+}
+.lefta{
+	width:44px;
+	height:44px;
+	display:flex;
+	align-items:center;
+	justify-content:center
+}
+.circled{
+	width:44px;
+	height:44px;
+	display:flex;
+	align-items:center;
+	justify-content:center
+}
+.circle{
+	width:44px;
+	height:44px;
+	display:flex;
+	align-items:center;
+	justify-content:center
+}
+.righta{
+	width:44px;
+	height:44px;
+	display:flex;
+	align-items:center;
+	justify-content:center
+}
+.line2{
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	position:relative;
+	height:104px;
+	margin-bottom:55px;
+}
+.box1{
+	width:196.09px;
+	height:72px;
+	margin:16px 24px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+.box2{
+	width:78.48px;
+	height:72px;
+	margin:16px 24px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+.box3{
+	width:115.82px;
+	height:72px;
+	margin:16px 24px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+.box4{
+	width:172.316px;
+	height:72px;
+	margin:16px 24px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+.line2 p{
+	text-decoration:underline;
+	color:#0067b8;
+	font-weight:500;
+}
+.line3{
+	width:100%;
+	height:475.7px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	line-height:1.3;
+}
+.line3 .box{
+	width:382px;
+	margin:0px 12px;
+	height:485.7px;
+	box-sizing: border-box;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	box-shadow:0px 2px rgba(0,0,0,0.15);
+}
+.description{
+	width:334px;
+	height:157px;
+	padding:24px 24px 0px;
+}
+.line4{
+	margin-top:100px;
+	height:600px;
+	width:100%;
+	background-color:white;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.img2{
+	width:1596px;
+	height:600px;
+	background-image:url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Slim-Multi-Canvas-Game-Pass-APR-2025:VP5-1596x600);
+}
+.pop2{
+	width:500px;
+	height:170px;
+	background-color:transparent;
+	position:relative;
+	top:210px;
+	left:125px;	
+}
+.line5{
+	margin-top:20px;
+	width:100%;
+	height:475.7px;
+	display:flex;
+	justify-content:center;
+	align-items:center
+}
+.line5 .box{
+	width:382px;
+	margin:0px 12px;
+	height:533px;
+	box-sizing: border-box;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	box-shadow:0px 2px rgba(0,0,0,0.15);
+}
+.fbox{
+	height:330px;
+	width:254.66px;
+	display:flex;
+	flex-direction:column;
+	justify-content:start;
+	align-items:center;
+	padding:0px 12px 0px 0px;	
+}
+.fboxul{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:start;
+	padding:2px 2px;!important
+}
+.fboxul li{
+	padding:8px;
+	margin:0px;
+	font-size:11px;
+}
+.line6{
+	color:#616161;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	position: relative;
+	left:20px;
+    width: 1750px;
+}
+	</style>
 	</head>
 	<body>
 		<header class="navbar"> 
